@@ -3,11 +3,13 @@
   background: #e4e6e9; /* Fundo cinza claro para a página */
   color: #2e6589; /* Cor do texto padrão para contraste */
   --ion-background-color: #e4e6e9; /* Fundo cinza claro */
+  font-family: 'Roboto', sans-serif; /* Fonte padrão Roboto */
 }
 
 /* Cabeçalho */
 .header-title {
   color: #ff6600; /* Laranja para o título do cabeçalho */
+  font-family: 'Roboto', sans-serif; /* Fonte Roboto para o título */
 }
 
 /* Card */
@@ -54,4 +56,24 @@ ion-card-content {
   font-size: 1.1rem;
   color: #2e6589; /* Azul escuro para o texto do conteúdo */
   padding: 16px;
+}
+
+/* Logo da Unisuam */
+.unisuam-logo {
+  position: fixed; /* Fixa o logo na tela */
+  top: 0; /* Alinha ao topo da tela */
+  left: 0; /* Alinha à esquerda da tela */
+  width: 100vw; /* Largura da tela */
+  height: 100vh; /* Altura da tela */
+  z-index: -1; /* Coloca o logo atrás do conteúdo */
+  display: flex; /* Usa flexbox para centralizar o logo */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.unisuam-logo img {
+  width: 100%; /* Faz o logo ocupar a largura total da tela */
+  height: 100%; /* Faz o logo ocupar a altura total da tela */
+  object-fit: cover; /* Mantém a proporção do logo */
+  opacity: 0.3; /* Transparência do logo */
 }
