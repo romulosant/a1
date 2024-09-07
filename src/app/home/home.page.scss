@@ -1,0 +1,57 @@
+/* Fundo da Página Principal */
+.main-content {
+  background: #e4e6e9; /* Fundo cinza claro para a página */
+  color: #2e6589; /* Cor do texto padrão para contraste */
+  --ion-background-color: #e4e6e9; /* Fundo cinza claro */
+}
+
+/* Cabeçalho */
+.header-title {
+  color: #ff6600; /* Laranja para o título do cabeçalho */
+}
+
+/* Card */
+.profile-card {
+  text-align: center;
+  border-radius: 20px; /* Borda arredondada mais pronunciada */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  margin: 16px;
+  padding: 16px;
+  background: #ffffff; /* Fundo branco para o card */
+  border: 3px solid #ff6600; /* Borda laranja */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transição suave para interatividade */
+}
+
+.profile-card:hover {
+  transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Sombra mais forte ao passar o mouse */
+}
+
+/* Imagem */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+  border: 6px solid #ff6600; /* Borda laranja */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efeito de sombra suave */
+  margin: 16px auto;
+}
+
+/* Texto */
+.profile-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2e6589; /* Azul escuro para o nome */
+}
+
+.profile-code {
+  font-size: 1.3rem;
+  color: #2e6589; /* Azul escuro para o código de turma */
+}
+
+ion-card-content {
+  font-size: 1.1rem;
+  color: #2e6589; /* Azul escuro para o texto do conteúdo */
+  padding: 16px;
+}
